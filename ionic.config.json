@@ -1,0 +1,7 @@
+{
+  "name": "ion-prac",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
