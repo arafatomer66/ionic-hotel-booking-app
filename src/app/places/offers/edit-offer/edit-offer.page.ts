@@ -25,7 +25,7 @@ export class EditOfferPage implements OnInit {
 
          this.place = this.placeService.getPlace(paramMap.get('placeId'));
       }
-    );
+    ); 
   }
 
 
