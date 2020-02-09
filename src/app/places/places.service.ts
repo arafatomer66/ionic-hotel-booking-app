@@ -8,6 +8,7 @@ export class PlacesService {
 
   private _places: Place[] = [
     new Place(
+      // tslint:disable-next-line: max-line-length
       'p1', 'Dhaka', 'A good place where to will feel everything', 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Dhaka_14th_March_%2832624769393%29.jpg/1200px-Dhaka_14th_March_%2832624769393%29.jpg', 299.99
     ),
     new Place(
@@ -22,4 +23,11 @@ export class PlacesService {
   }
 
   constructor() { }
+
+
+  getPlace(id: string){
+     return {... this._places.find(
+      (p) => p.id === id
+    )};
+  }
 }
