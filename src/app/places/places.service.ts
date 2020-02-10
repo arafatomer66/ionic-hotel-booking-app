@@ -14,6 +14,12 @@ export class PlacesService {
     new Place(
       'p2', 'Khulna', 'A awsme place where to will feel everything', 'https://www.hotelroyalintl.com/assets/img/khulna/03.jpg', 270.99
     ),
+    new Place(
+      'p2', 'Chittagong', 'A awsme place where to will feel everything', 'https://www.hotelroyalintl.com/assets/img/khulna/03.jpg', 270.99
+    ),
+    new Place(
+      'p2', 'Rajshahi', 'A awsme place where to will feel everything', 'https://www.hotelroyalintl.com/assets/img/khulna/03.jpg', 270.99
+    ),
 
 
   ];
